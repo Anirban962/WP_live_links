@@ -1,0 +1,169 @@
+/*
+    Theme Name: Negretes Flowers
+    Description: Developed for Negretes Flowers
+    Version: 1.0
+    Author: Kam Develops
+    Author URI: https://kamdevelops.com/
+    Date: February 2023
+*/
+.top_panel_title .bg-breadcrumbs {background-size: cover !important;background-color: rgba(0, 0, 0, 0.4) !important;background-blend-mode: darken;background-repeat: no-repeat !important;}
+.top_panel_title_inner {
+ overflow: hidden;
+ padding: 6.5em 0;
+}
+.pb-1 {padding-bottom: 8.6em !important;}
+.pt-1 {padding-top: 8.6em !important;}
+#menu-services-menu li a {font-size: 18px;}
+#menu-services-menu li {margin-bottom: 12px;}
+#menu-services-menu li:last-child, .m_wrapper.m-ul li:last-child {margin-bottom: 0;}
+.m_wrapper.m-ul li {
+  font-size: 15px;
+  margin-bottom: 15px; 
+}
+.footer_wrap.widget_area.scheme_original .logo img {
+  height: 110px;
+}
+#gform_2 label{display: none;}
+#gform_2 input{color: #fefefe;}
+#gform_submit_button_2{display: inline-block;
+text-align: center;
+padding: 1.65em 2.86em;
+font-weight: 700;
+font-size: 0.857em;
+text-transform: uppercase;
+letter-spacing: 3.4px;
+border: 3px solid #fff;}
+#gform_submit_button_2:hover{color: #cbb9a6;background: #fff;}
+#gform_2 .gform-body{
+float: left;
+margin-top: 9px;
+margin-right: 2%;
+width: 59%;}
+#gform_2 .gform_footer{margin-top: 0;
+padding-top: 0;}             
+.single-blog .single-blog-img-wrap{height: 360px;}  
+
+.pagination ul li{display: inline-block;margin-right: 10px;}
+.pagination ul li:last-child{margin-right: 0;}
+.pagination ul li a, .pagination ul li span{height: 35px;
+width: 35px;
+background-color: #fff;
+color: #a3ad6f;display: block; border: 1px solid #a3ad6f;
+  line-height: 35px; }
+.pagination span.current {
+  background-color: #a3ad6f ;
+  border: 1px solid #a3ad6f;
+  color: #ffffff;
+  line-height: 35px;
+  height: 35px;
+width: 35px;display:block;} 
+.footer_wrap_inner {
+	padding: 3em 0 2em!important;}
+.top_panel_title_inner {
+  overflow: hidden;
+  padding: 3.5em 0!important;            
+}  
+.top_panel_title .page_title {
+  font-size: 2.929em!important;}
+.google-map-wrap iframe{height:350px!important;}  
+.google-map-wrap p{margin-bottom:0!important;}
+.gform_wrapper.gravity-theme .gform_validation_errors {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-align: left;
+}
+.gform_wrapper.gravity-theme .gfield_validation_message, .gform_wrapper.gravity-theme .validation_message {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  text-align: left;
+}
+.sc_testimonial_item {top:  40% !important;}
+/*============== responsive ==============*/
+@media screen and (max-width:1199px){
+  .sc_home-font-type-a {font-size: 3em !important;}
+  h2 {font-size: 2.25em;}
+  .sc_testimonial_content p {font-size: 1.25em;}
+}
+@media screen and (max-width:959px){
+  .header_mobile .panel_middle {font-size: 14px;}
+  .scheme_original a {color: #fff;text-transform: uppercase;font-size: 16px;}
+  #menu-header-menu-1 {margin: 30px 10px;}
+  #menu-header-menu-1 li {margin-bottom: 20px;}
+}
+@media screen and (max-width:991px){
+  .sc_testimonial_content p {font-size: 1.2em;}
+}
+@media screen and (max-width:768px){
+  .no-pbtm .column-5_9, .no-pbtm .column-4_9 {
+    width: 100%;
+  }
+  .no-pbtm p:last-child {padding-bottom: 30px !important;}
+  .sc_testimonial_item {top: 55% !important;}
+  .home-ban .sc_slider_swiper {height: 100% !important;}
+  .sc_testimonial_content p {font-size: 1em;}
+}
+@media screen and (max-width:767px){
+  .sc_home-margin-type-a, .sc_a-us-margin-type-a {
+    margin-top: 8em !important;
+    margin-bottom: 7em !important;
+  }
+  .sc_testimonial_content p {font-size: 1em;}
+  .scheme_original .contacts_wrap .contacts_address address::before {background-color: transparent;}
+  .contacts_wrap .contacts_address {display: block;}
+  .contacts_wrap .contacts_address address {width: 100%;margin-bottom: 40px;}
+  .contacts_wrap .contacts_address address:last-child {margin-bottom: 0;}
+  .sc_home-param-type-g {width: 100% !important;}
+  .mcol-full {
+    width: 100% !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    height: auto;
+    clear: both;
+    max-width: 100%;
+    min-width: 100% !important;
+  }
+  .container-fluid.sc_home-bg-type-c.m-mbl .mbl-l0 {margin-left: 0;margin-right: 28px !important;}
+  .m-full {width: 100% !important;}
+  .m-mbl .m-full {margin: 8px 0;}
+  .container-fluid.sc_home-bg-type-c.m-mbl {
+    background-position: left !important;
+    background-color: rgba(0, 0, 0, 0.45) !important;
+    background-blend-mode: darken;
+  }
+  .column-3_7.sc_column_item.odd.m-full h3, .column-3_7.sc_column_item.odd.m-full h6, .column-3_7.sc_column_item.odd.m-full p {color: #fff;}
+	.stay-text, .stay-form{height: auto;
+  width: 100%;
+  text-align: center;}
+  #gform_2 .gform_footer{display: block;}                 
+}
+@media screen and (max-width:575px){
+  .container-fluid.sc_home-bg-type-c.m-mbl .mbl-l0 {margin-right: 0 !important;}
+  .m-mbl .m-full {margin: 0;padding: 0;}
+  input[type="submit"].sc_button_size_large, input[type="button"].sc_button_size_large, button.sc_button_size_large, .sc_button.sc_button_size_large {
+    padding: 1.5em 2em;
+  }
+  .sc_home-margin-type-g {margin-top: 3.5em !important;}
+}
+@media screen and (max-width:480px){
+  .header_mobile .side_wrap {top: 85px;}
+  .sc_testimonial_content p {font-size: 0.9em;}
+}
+@media screen and (max-width:380px){
+  .sc_testimonial_content p {font-size: 0.8em;}
+  .sc_testimonial_item {padding: 0 40px !important;}
+}
+@media screen and (max-width:320px){
+  .sc_testimonial_content p {font-size: 0.8em;}
+}
+
+
+
+
+
+
+
+
